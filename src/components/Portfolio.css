@@ -1,0 +1,138 @@
+.portfolio-container {
+    margin-top: 2vh;
+    height: auto;
+    background-color: #1e2434;
+    
+}
+
+.title-portfolio {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+
+.project-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1rem solid #191338;
+    border-radius: 10%; */
+    width: 65%;
+    margin-bottom: 5vh;
+}
+
+.project-img {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    
+}
+
+.project-img a {
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+.project-img img {
+    width: 100%;
+    
+}
+
+#project-title {
+    color: rgb(219, 209, 209);
+    margin: 0;
+    margin-top: 5px;
+}
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    margin: 0;
+    padding: 0;
+    color: rgb(219, 209, 209);
+    width: 80%;
+}
+
+.project-details p {
+    margin: 0;
+    padding: 0;
+
+}
+
+@media screen and (min-width: 1024px) {
+    
+   
+    .portfolio-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2vh;
+        height: 62vh;
+        background-color: #1e2434;
+        
+    }
+    
+    .title-portfolio {
+        align-items: center;
+        height: 15vh;
+    }
+
+    .title-portfolio h1 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .portfolio-section {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 75%;
+    }
+
+    .project-div {
+        justify-content: space-around;
+        align-items: flex-start;
+        width: 30%;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    .project-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    
+
+    .project-img img {
+        height: 25vh;
+        width: 100%;
+    }
+
+    #project-title {
+        color: rgb(219, 209, 209);
+        margin: 0;
+        
+    }
+
+    .project-details {
+        width: 100%;
+    }
+
+}

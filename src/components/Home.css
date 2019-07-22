@@ -1,0 +1,115 @@
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #fff
+}
+.header-section {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    height: 63vh;
+    width: 100%;
+    background-color: #1e2434;
+}
+.header-title {
+    position: absolute;
+    border: 4px solid #fff;
+    padding: 15px;
+
+}
+
+.logo-container {
+    position: relative;
+    right: -160px;
+    
+}
+
+.logo-container img {
+    width: 40vw;
+}
+
+.code-icon {
+    display: flex;
+    position: relative;
+    top: 120px;
+    left: -20vw;
+}
+
+.code-icon i {
+    width: 10vw;
+    color: #191338;
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width: 640px) and (max-width: 767px) {
+    .code-icon {
+        display: flex;
+        position: relative;
+        top: 23vh;
+        left: -17vw;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .header-section {
+        height: 62vh;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        letter-spacing: 3px;
+    }
+
+    .code-icon {
+        top: 21vh;
+        left: -15vw;
+    }
+
+    .code-icon i {
+        width: 15vw;
+        color: #191338;
+        font-size: 1.5em;
+    }
+
+    
+}
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 2.5em;
+        letter-spacing: 3px;
+    }
+    .header-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        height: 70vh;
+        width: 100%;
+        
+    }
+    .header-title {
+        padding: 60px 100px;
+    }
+    .logo-container {
+        position: relative;
+        right: -700px;
+    }
+    .code-icon {
+        display: block;
+        position: relative;
+        top: 0px;
+        left: -350px;
+    }
+    
+    .code-icon i {
+        width: 40vw;
+        color: #191338;
+        font-size: 3.5em;
+    }
+
+}
+

@@ -1,0 +1,54 @@
+h1 {
+    color: #fff;
+    /* font-size: 1.5em; */
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 2vh;
+    height: auto;
+    background-color: #1e2434;
+}
+
+.about-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.img-container img {
+    width: 60%;
+}
+
+.text-about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: justify;
+    margin-bottom: 2vh;;
+}
+
+.text-about h2 {
+    margin: 2vh 0 0 0;
+    
+    font-size: 1em;
+}
+
+.text-about p {
+    font-size: .8em;
+    font-weight: 300;
+    width: 60%;
+}
+
+.text-about p strong {
+    font-weight: 600;
+}
+
