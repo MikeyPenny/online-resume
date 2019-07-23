@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/online-resume.git/static/css/main.425e533c.chunk.css",
+    "main.css": "/online-resume.git/static/css/main.59ccfdca.chunk.css",
     "main.js": "/online-resume.git/static/js/main.6f38cf95.chunk.js",
     "main.js.map": "/online-resume.git/static/js/main.6f38cf95.chunk.js.map",
     "runtime~main.js": "/online-resume.git/static/js/runtime~main.2ce9cfaf.js",
@@ -8,8 +8,8 @@
     "static/js/2.e253dbb6.chunk.js": "/online-resume.git/static/js/2.e253dbb6.chunk.js",
     "static/js/2.e253dbb6.chunk.js.map": "/online-resume.git/static/js/2.e253dbb6.chunk.js.map",
     "index.html": "/online-resume.git/index.html",
-    "precache-manifest.5dddcafaae3358a784e824388ea384d2.js": "/online-resume.git/precache-manifest.5dddcafaae3358a784e824388ea384d2.js",
+    "precache-manifest.ef8481a547e540797762fe9100fdca48.js": "/online-resume.git/precache-manifest.ef8481a547e540797762fe9100fdca48.js",
     "service-worker.js": "/online-resume.git/service-worker.js",
-    "static/css/main.425e533c.chunk.css.map": "/online-resume.git/static/css/main.425e533c.chunk.css.map"
+    "static/css/main.59ccfdca.chunk.css.map": "/online-resume.git/static/css/main.59ccfdca.chunk.css.map"
   }
 }
