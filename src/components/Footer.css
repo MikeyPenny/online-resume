@@ -1,14 +1,14 @@
 
 .footer-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-top: 2vh;
     background-color: #1e2434;
     color: #fff;
     font-style: 'Roboto', sans-serif;
-    width: 100%;
+    
 }
 
 .link-container {

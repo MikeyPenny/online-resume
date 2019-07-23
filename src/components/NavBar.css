@@ -6,7 +6,7 @@ nav {
     display: flex;
     justify-content: space-between;
     background-color: #1e2434;
-    width: 100%;
+    
     height: 14vh;
     font-family: 'Roboto', sans-serif;
 }
@@ -95,7 +95,7 @@ nav img {
 
     .show {
         font-size: 2em;
-        height: 55vh;
+        height: auto;
     }
 }
 
