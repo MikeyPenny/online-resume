@@ -8,7 +8,7 @@ class Contact extends Component {
             <section className="contact-container">
                 <h1>Contact</h1>
                 <div className="row">
-                    <p className="cta">Give me a call, I´m always open for a chat, coffe or a beer.</p>
+                    <p className="cta">Give me a call, I´m always open for a chat, coffee or a beer.</p>
                 </div>
                 <div className="row list">
                     <ul className="contact-list">
